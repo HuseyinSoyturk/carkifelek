@@ -7,6 +7,28 @@
   </head>
 
   <body>
+    <iframe name="dummyframe" id="dummyframe" style="display: none"></iframe>
+
+    <div class="form">
+      <form action="submitscript.php" target="dummyframe" class="container">
+        <h1>Kayıt</h1>
+    
+        <label><b>İsim</b></label>
+        <input type="text" placeholder="İsim" required>
+
+        <label><b>Soyisim</b></label>
+        <input type="text" placeholder="Soyisim" required>
+
+        <label><b>Email</b></label>
+        <input type="text" placeholder="Email" required>
+
+        <label><b>Telefon</b></label>
+        <input type="number" placeholder="Telefon" required>
+
+        <button class="btn">Tamamla</button>
+      </form>
+    </div>
+
     <div id="app">
       <img class="marker" src="marker.png" />
       <img class="wheel" src="wheel.png" />
